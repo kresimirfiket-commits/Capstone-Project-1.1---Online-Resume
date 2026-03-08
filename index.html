@@ -2,78 +2,144 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KMF_Resume</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Anta&family=DynaPuff:wght@400..700&family=Michroma&family=Sigmar&family=Sigmar+One&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
     <section class="top-section">
-        <div class="top-heading">
-            <h1>My name is KREŠIMIR and I drive the Taxi Car...</h1>
-        </div>
         <div class="top-container">
-            <img class="tire" src="./Images/wheel-1596877_1280.png" alt="car tire" height="150px">
-            <img class="car" src="./Images/marcuesbo-bmw-2546164_1280.png" alt="bmw car" height="200px">
-            <img class="tire" src="./Images/wheel-1596877_1280.png" alt="car tire" height="150px">
-        </div>
-        <div class="top-heading">
-            <h2>But, I am also a PROGRAMMER ...</h2>
+            <button class="button" onclick="changePic()">Skip It</button>
+            <button class="button"><a href="./index-hr.html">Hrvatski</a></button>
         </div>
     </section>
-
-    <section class="middle-section">
-        <div class="middle-container">
-            <img src="./Images/myselfie_square.jpg" alt="my selfie" height="200px">
-            <h3 class="h3-middle">Hi there...</h3>
-            <p>In 2017 I went to Ireland to change profession. I did mostly manual work, except for the last job, and I
-                decided to come back in 2019 to start a taxi business. At first I worked for a small taxi company from
-                Velika Gorica. It lasted for about six months and later that year I bough a car, opened a small business
-                and joined Radio Taxi Zagreb or shorter Taxi 1717.</p>
-            <p>After three years working only as driver, I joined the dispatch center and started to work as an
-                operator. Job includes much more than one would think. It's not just about answering phone calls.
-                Operator creates working orders inside dispatch app, follows the work flow, coordinates business across
-                different part of the city. He also serves as support to individal drivers, handles the complaints form
-                the customers and drivers, and so on, and so on...</p>
-        </div>
-        <div class="button-box">
-            <a href="../12.0 Capstone Project 1.1 - Online Resume/index.html"><button class="button">My
-                    Resume</button></a>
-            <a href="./index-hr.html"><button class="button">Hrvatski</button></a> 
+    <section class="main-section">
+        <div class="grid-container">
+            <div class="top-box-1 box">
+                <img id="image" src="./Images/pic_1.jpg" alt="my selfie">
+            </div>
+            <div class="top-box-2">
+                <h2>KREŠIMIR-MIRKO FIKET (&copy KMF)</h2>
+                <h3 class="top-h3">TAXI DRIVER ASPIRING TO BECOME A PROGRAMMER<br>(a CV from my former life)</h3>
+            </div>
+            <div class="contact box-1">
+                <h2>CONTACT</h2>
+                <ul>
+                    <li class="phone">+385 91 577 8068</li>
+                    <li class="email">kresimir.fiket@gmail.com</li>
+                    <li class="adress">Tome Gajdeka 36, Zagreb, Croatia</li>
+                    <li class="webpage"><a href="../12.1 Capstone Project 2 - Personal Site/index.html">Website
+                            Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="profile" class="box box-2">
+                <h2>PROFILE</h2>
+                <p>Engineering professional with a Master’s Degree focused in Food Technology
+                    and Processing from Faculty of Food Bio-Technology, University of Zagreb.
+                    Strong experience with Quality and Management systems in Food Industry
+                    (HACCP, ISO 9001, ISO 14001, ISO 22000), auditing and implementation.
+                    Background in Brewing and Packaging.</p>
+            </div>
+            <div id="education" class="box box-1">
+                <h2>EDUCATION</h2>
+                <p>1990 - 1994: </p>
+                <p><strong>XV. GYMNASIUM (MIOC), ZAGREB, CROATIA</strong></p>
+                <p>1994 - 2000:</p>
+                <p><strong>UNIVERSITY OF ZAGREB, CROATIA <br> MASTER’S DEGREE IN FOOD TECHNOLOGY</strong></p>
+            </div>
+            <div class="work box box-2">
+                <h2>WORK EXPERIENCE</h2>
+                <div class="firm">
+                    <p>MINISTRY OF HEALTH</p>
+                    <p>Nov 2010 to Sep 2017</p>
+                </div>
+                <p class="job">Food Inspector</p>
+                <ul>
+                    <li>Food Safety / HACCP audits (retailers, industry, catering)</li>
+                    <li>ISO 22000 audits (HACCP, GMP, Hygiene, traceability, provision of food information to consumers)
+                    </li>
+                </ul>
+                <div class="firm">
+                    <p>TETRAPAK CROATIA</p>
+                    <p>Jul 2009 to Oct 2010</p>
+                </div>
+                <P class="job">Technical Service Administrator</P>
+                <ul>
+                    <li>Import & Re-export of spare parts for Tetra Pak machines.</li>
+                    <li>Import for dairy industry in Croatia / Re-export to Bosnia and Albania</li>
+                </ul>
+                <div class="firm">
+                    <p>BREWERY ZAGREB (AB InBev)</p>
+                    <p>Jul 2001 to Dec 2008</p>
+                </div>
+                <p class="job">Field Based Specialist</p>
+                <ul>
+                    <li>Packaging/filling lines acceptance tests after overhaul / installation</li>
+                    <li>Specific software for short stops / long stops recording & analysis / SIC (Short Interval
+                        Control)</li>
+                </ul>
+                <p class="job">Full Time Facilitator</p>
+                <ul>
+                    <li>Audits of production plants in Central Europe and assessment against targeted standards
+                        (Management, Quality, Maintenance, Logistics and People)</li>
+                    <li>Management, Quality & Maintenance Systems Implementation</li>
+                </ul>
+                <p class="job">Process Engineer</p>
+                <ul>
+                    <li>Packaging/filling lines technical support</li>
+                </ul>
+            </div>
+            <div id="skills" class="box box-2">
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>Food Safety / HACCP audits</li>
+                    <li>ISO 22000 audits </li>
+                    <li>Management & Quality Systems</li>
+                    <li>Maintenance Systems</li>
+                    <li>Microsoft Office (Word, Excel, PowerPoint, Outlook)</li>
+                </ul>
+            </div>
+            <div class="certs box box-2">
+                <h2>CERTIFICATIONS</h2>
+                <ul>
+                    <li>BTSF Audit system and conducting audit</li>
+                    <li>BTSF Controls on contaminants in Food and Feed</li>
+                    <li>BTSF Food additives, enzymes and flavourings</li>
+                    <li>BTSF Food contact material rules</li>
+                </ul>
+            </div>
+            <div class="affairs box box-1">
+                <h2>CURRENT, RECENT & PAST AFFAIRS</h2>
+                <p>In my senior high school year, I was considering studying computer sciences. At that time, you could
+                    only
+                    study computer sciences at FER, and they had a whole lot of physics there, which I didn't like at
+                    all. <br> As I couldn't graduate there, I decided to enroll the Faculty of Food Technology. They had
+                    math
+                    and chemistry at the entrance exam, which I liked, so I went there.<br>My first job was at Brewery
+                    Zagreb. After
+                    a few
+                    years, I tried to change profession by enrolling the Faculty of Economics. Being married and with a
+                    small child, I didn't get far before I had to quit.<br>As time went by I disliked the job and the
+                    environment more
+                    and more, and finally decided I couldn't go on any more. I left for Ireland, stayed there for a year
+                    and a half, came back and changed profession to taxi driver. I have small business inside Taxi 1717
+                    organisation and I also work as an operator in our dispatch center in Travno, Božidara Magovca
+                    55.<br>Couple of years ago I took Udemy course, designed my webpage and started considering
+                    programming as a line of work.</p>
+            </div>
         </div>
     </section>
-
-    <section class="carousel-section">
-        <h3>My car actually looks much more like this...</h3>
-        <div class="carousel-container">
-            <div class="mySlides fade">
-                <img src="./Images_carousel/pix1861-automobile-465412_1280_resized.jpg">
-            </div>
-            <div class="mySlides fade">
-                <img src="./Images_carousel/westgroup-car-7666299_1280.jpg">
-            </div>
-            <div class="mySlides fade">
-                <img src="./Images_carousel/westgroup-machine-7666300_1280.jpg">
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <div class="carousel-paragraph">
-            <p>The 2.0 TDI (turbodiesel with direct injection) engine with 150 hp is one of the best engines on the
-                market all together. It's a very sensible choice due to excellent fuel consumption of 6.90 l/100 km
-                (mostly urban area). The 150 hp version is often highlighted as the optimal balance of power and
-                efficiency for most drivers. Car also has spacious interior and luggage compartment, which makes it an
-                ideal family car or company vehicle.
-            </p>
+    <section class="bottom-section">
+        <div class="bottom-container">
+            <button class="button"><a
+                    href="../12.1 Capstone Project 2 - Personal Site/index.html">Portfolio</a></button>
+            <p>&copy KMF - All rights reserved.</p>
         </div>
     </section>
-    <script src="./index.js"></script>
+    <script src="index.js" charset="UTF-8"></script>
 </body>
 
 </html>
