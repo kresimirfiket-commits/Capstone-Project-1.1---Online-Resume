@@ -4,136 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KMF_Životopis</title>
+    <title>PORTFOLIO</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anta&family=DynaPuff:wght@400..700&family=Michroma&family=Sigmar&family=Sigmar+One&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <section class="top-section">
+        <div class="top-heading">
+            <h1>Zovem se KREŠIMIR i profesionalni sam vozač TAKSIJA...</h1>
+        </div>
         <div class="top-container">
-            <button class="button" onclick="changePic()">Preskoči</button>
+            <img class="tire" src="./Images/wheel-1596877_1280.png" alt="car tire" height="150px">
+            <img id="car" src="./Images/marcuesbo-bmw-2546164_1280.png" alt="bmw car" height="200px">
+            <img class="tire" src="./Images/wheel-1596877_1280.png" alt="car tire" height="150px">
+        </div>
+        <div class="top-heading">
+            <h2>Ali sam također i PROGRAMER ...</h2>
+        </div>
+    </section>
+
+    <section class="middle-section">
+        <div class="middle-container">
+            <img src="./Images/myselfie_square.jpg" alt="my selfie" height="200px">
+            <h3>Srdačan pozdrav...</h3>
+            <p>2017. godine sam otputovao u Irsku s namjerom da promijenim struku / profesiju. Osim zadnjeg zaposlenja
+                radio sam težačke poslove te sam se 2019. godine odlučio vratiti u domovinu, da bih se bavio taksi
+                poslom. Isprva sam radio za malu privatnu firmu iz Velike Gorice, ali sam kasnije iste godine kupio
+                automobil, otvorio obrt i pridružio se organizaciji Radio Taksi Zagreb ili skraćeno Taksi 1717.</p>
+            <p>Nakon tri godine rada, isključivo kao vozač, zaposlio sam se u dispečerskom centru Taksi 1717 kao
+                dispečer. Posao je mnogo zahtjevniji nego što bi netko naupućen mogao pretpostaviti. Ne radi se samo o
+                javljanju na telefonske pozive. Dispečer izrađuje radne naloge na računalu, prati tijek rada u realnom
+                vremenu te koordinira poslovne zahtjeve širom gradskog područja. Također služi kao podrška vozačima na
+                terenu te prima i upravlja žalbama stranaka i vozača itd. itd...</p>
+        </div>
+        <div class="button-box">
+            <a href="../12.0 Capstone Project 1.1 - Online Resume/index.html"><button class="button">My
+                    Resume</button></a>
             <a href="./index.html"><button class="button">English</button></a>
         </div>
     </section>
-    <section class="main-section">
-        <div class="grid-container">
-            <div class="top-box-1 box">
-                <img id="image" src="./Images/pic_1.jpg" alt="my selfie">
+
+    <section class="carousel-section">
+        <h3>Moj automobil u stvari mnogo više sliči ovome...</h3>
+        <div class="carousel-container">
+            <div class="mySlides fade">
+                <img src="./Images_carousel/pix1861-automobile-465412_1280_resized.jpg">
             </div>
-            <div class="top-box-2">
-                <h2>KREŠIMIR-MIRKO FIKET (&copy KMF)</h2>
-                <h3>TAKSI VOZAČ KOJI ŽELI BITI PROGRAMER<br>(CV iz prošlog života)</h3>
+            <div class="mySlides fade">
+                <img src="./Images_carousel/westgroup-car-7666299_1280.jpg">
             </div>
-            <div class="contact box box-1">
-                <h2>KONTAKT PODACI</h2>
-                <ul>
-                    <li class="phone">+385 91 577 8068</li>
-                    <li class="email">kresimir.fiket@gmail.com</li>
-                    <li class="adress">Tome Gajdeka 36, Zagreb, Croatia</li>
-                </ul>
+            <div class="mySlides fade">
+                <img src="./Images_carousel/westgroup-machine-7666300_1280.jpg">
             </div>
-            <div id="profile" class="box box-2">
-                <h2>PROFIL</h2>
-                <p>Magistar inženjer prehrambene tehnologije. Diplomu stekao na Prehrambeno-biotehnološkom fakultetu
-                    Sveučilišta u Zagrebu. Opsežno iskustvo u sustavima kvalitete i upravljanja u prehrambenoj
-                    industriji (HACCP, ISO 9001, ISO 14001, ISO 22000) što se tiče audita i uvođenja samih sustava.
-                    Temeljna znanja stekao u proizvodnji i punionici piva.</p>
-            </div>
-            <div id="education" class="box box-1">
-                <h2>OBRAZOVANJE</h2>
-                <p>1990 - 1994: </p>
-                <p><strong>XV. GIMNAZIJA (MIOC), ZAGREB, HRVATSKA</strong></p>
-                <p>1994 - 2000:</p>
-                <p><strong>SVEUČILIŠTE U ZAGREBU, MAGISTAR INŽENJER PREHRAMBENE TEHNOLOGIJE</strong></p>
-            </div>
-            <div class="work box box-2">
-                <h2>RADNO ISKUSTVO</h2>
-                <div class="firm">
-                    <p>MINISTARSTVO ZDRAVLJA</p>
-                    <p>Nov 2010 - Sep 2017</p>
-                </div>
-                <p class="job">Sanitarni inspektor</p>
-                <ul>
-                    <li>Sigurnost hrane / HACCP auditi (trgovački centri, industrija, ketering)</li>
-                    <li>ISO 22000 auditi (HACCP, GMP, higijena, sljedivost, pravo potrošača na dostupnost podataka o
-                        hrani)
-                    </li>
-                </ul>
-                <div class="firm">
-                    <p>TETRAPAK HRVATSKA</p>
-                    <p>Jul 2009 - Oct 2010</p>
-                </div>
-                <P class="job">Technical Service Administrator</P>
-                <ul>
-                    <li>Uvoz & ponovni izvoz of rezervnih dijelova za Tetra Pak strojeve.</li>
-                    <li>Uvoz pakirnog materijala za mliječnu industriju u Hrvatskoj / ponovni izvoz u Bosnu i
-                        Hercegovinu te Albaniju</li>
-                </ul>
-                <div class="firm">
-                    <p>ZAGREBAČKA PIVOVARA (AB InBev)</p>
-                    <p>Jul 2001 - Dec 2008</p>
-                </div>
-                <p class="job">Field Based Specialist</p>
-                <ul>
-                    <li>Prijemni testovi linija za punjenje / pakiranje piva, nakon godišnjeg remonta ili ugradnje nove
-                        linije</li>
-                    <li>Aplikacija za praćenje kratkih zastoja / praćenje dugih zastoja te analiza / SIC sustav
-                        (kontrola
-                        kratkih zastoja)</li>
-                </ul>
-                <p class="job">Full Time Facilitator</p>
-                <ul>
-                    <li>Auditiranje pivovara na području "Srednje Europe" i vrednovanje u odnosu na željene standarde
-                        (Upravljanje, Kontrola kvalitete, Održavanje opreme, Logistika i Ljudski resursi)</li>
-                    <li>Uvođenje jedinstvenog sustava Upravljanja te Kontrole kvalitete i Održavanja opreme</li>
-                </ul>
-                <p class="job">Procesni inženjer</p>
-                <ul>
-                    <li>Linije za punjenje / pakiranje piva</li>
-                </ul>
-            </div>
-            <div id="skills" class="box box-2">
-                <h2>VJEŠTINE</h2>
-                <ul>
-                    <li>Sigurnost hrane / HACCP auditi</li>
-                    <li>ISO 22000 auditi</li>
-                    <li>Sistemi Upravljanja te Kontrole kvalitete</li>
-                    <li>Sistemi održavanja opreme</li>
-                    <li>Microsoft Office (Word, Excel, PowerPoint, Outlook)</li>
-                </ul>
-            </div>
-            <div class="certs box box-2">
-                <h2>CERTIFIKATI</h2>
-                <ul>
-                    <li>BTSF planiranje i provođenje audita</li>
-                    <li>BTSF kontrola kontaminanata u hrani i stočnoj hrani</li>
-                    <li>BTSF aditivi, enzimi i arome</li>
-                    <li>BTSF materijali u kontaktu s hranom</li>
-                </ul>
-            </div>
-            <div class="affairs box box-1">
-                <h2>OSVRT NA DOSADAŠNJI RAD</h2>
-                <p>U četvrtom srednje razmatrao sam studiranje informatičkih znanosti. Iste su se mogle studirati jedino
-                    na FER-u, ali nisam volio fiziku koja je temelj cijelog studija. Kako se nisam osjećao sposobnim
-                    završiti FER, a dobro sam poznavao matematiku i kemiju, odlučio sam upisati
-                    Prehrambeno-biotehnološki fakultet u Zagrebu.<br>Nakon završenog fakulteta i nekoliko godina rada u
-                    Zagrebačkoj pivovari, pokušao sam promijeniti profesiju upisavši Ekonomski fakultet u Zagrebu. Bio
-                    sam oženjen i otac male bebe te sam ubrzo odustao.<br>Kako je vrijeme prolazilo sve sam se lošije
-                    osjećao u struci te sam odlučio otići u Irsku. Nakon provedenih godinu i pol vratio sam se i otvorio
-                    taksi obrt. Trenuto radim kao vozač na svom autu i obrtu unutar udruženja Taksi 1717, a također i
-                    kao operater u našem dispečerskom centru u Travnom.<br>Prije nekoliko godina prošao sam tečaj na
-                    platformi Udemy, napravio svoju web stranicu i počeo razmišljati o programiranju kao struci.</p>
-            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="carousel-paragraph">
+            <p>2.0 TDI (turbodizel s izravnim ubrizgavanjem) motor sa 150 KS jedan je od najboljih motora na tržištu
+                uopće. Vrlo je razuman izbor zbog izvrsne potrošnje goriva od 6,90 l/100 km (uglavnom gradsko područje).
+                Verzija sa 150 KS često se ističe kao optimalna ravnoteža snage i učinkovitosti za većinu vozača.
+                Automobil također ima prostranu unutrašnjost i prtljažnik, što ga čini idealnim obiteljskim automobilom
+                ili službenim vozilom.</p>
         </div>
     </section>
-    <section class="bottom-section">
-        <div class="bottom-container">
-            <a href="../12.1 Capstone Project 2 - Personal Site/index.html"><button
-                    class="button">PORTFOLIO</button></a>
-            <p>&copy KMF - All rights reserved.</p>
-        </div>
-    </section>
-    <script src="index.js" charset="UTF-8"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
