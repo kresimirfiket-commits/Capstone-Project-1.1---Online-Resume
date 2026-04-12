@@ -98,10 +98,6 @@ a {
     transition-duration: .5s;
 }
 
-#image:hover {
-    transform: scale(1.17);
-}
-
 .box {
     padding: 0 20px 20px 20px;
     text-align: justify;
@@ -216,6 +212,12 @@ a {
     margin: 10px 0;
 }
 
+.copy {
+    height: 35px;
+    width: 180px;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
     .contact:hover {
         background-color: #F3F4F4;
@@ -232,6 +234,10 @@ a {
         border: solid 1px #1D546D;
         box-shadow: 5px 5px 5px #5F9598;
         transform: scale(1.02);
+    }
+
+    #image:hover {
+        transform: scale(1.17);
     }
 }
 
@@ -256,6 +262,10 @@ a {
         margin: 0 10px;
     }
 
+    .top-box-1 {
+        background-color: #1D546D;
+    }
+
     .contact:hover {
         background-color: #F3F4F4;
         color: #061E29;
@@ -271,5 +281,16 @@ a {
 
     .button {
         width: 140px;
+    }
+
+    .kmf {
+        display: none;
+    }
+
+    .copy {
+        height: 35px;
+        width: 100px;
+        text-align: center;
+        font-size: 0.7rem;
     }
 }
