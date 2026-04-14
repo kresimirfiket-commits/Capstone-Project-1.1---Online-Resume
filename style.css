@@ -206,7 +206,7 @@ a {
     width: 960px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     color: #061E29;
     font-size: 12px;
     margin: 10px 0;
@@ -259,7 +259,7 @@ a {
     .grid-container {
         display: flex;
         flex-direction: column;
-        margin: 0 10px;
+        margin: 0;
     }
 
     .top-box-1 {
